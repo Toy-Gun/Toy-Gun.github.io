@@ -6,4 +6,4 @@ Cocos Example : https://toy-gun.github.io/web-desktop/
 
 H5 Maze Game : https://toy-gun.github.io/H5/
 
-Web Test : 
+Web Test : https://toy-gun.github.io/myweb/
