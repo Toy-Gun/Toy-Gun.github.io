@@ -1,10 +1,7 @@
-var ChessWebAPI = require('chess-web-api');
+const headers = {
+    Authorization: 'Bearer ' + "lip_2HAxNSCyraaKzc3DX5Ro",
+};
 
-var chessAPI = new ChessWebAPI();
-
-chessAPI.getPlayer('BK877481')
-    .then(function (response) {
-        console.log('Player Profile', response.body);
-    }, function (err) {
-        console.error(err);
-    });
+fetch('https://lichess.org/api/account', { headers })
+    .then(res => res.json())
+    .then(console.log);
