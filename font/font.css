@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url("FiraCode-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+}
+
+body {
+    font-family: FiraCode, 'Microsoft YaHei UI', 'Microsoft YaHei';
+}
